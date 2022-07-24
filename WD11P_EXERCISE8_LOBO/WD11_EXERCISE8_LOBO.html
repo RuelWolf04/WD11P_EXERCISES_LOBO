@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlineLibrary</title>
+
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container bg-success py-3">
+      <h1 class="text-light text-center">Online.Library</h1>
+      <div class="row">
+        <div class="col-8 px-1">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Enter Book Title, Author, etc."
+          />
+        </div>
+        <div class="col-2 px-1">
+          <input type="text" class="form-control" placeholder="Filter" />
+        </div>
+
+        <div class="col-2 px-1">
+          <input type="submit" value="Search" class="btn btn-primary w-100" />
+        </div>
+      </div>
+
+      <!-- table -->
+
+      <table class="table table-striped table-hover my-5">
+        <thead>
+          <tr>
+            <th>Book Cover</th>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Date Published</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="table-secondary">
+            <td>
+              <img class="col-3 w-100 rounded-3 img-thumbnail" src="image/algorithms.jpg" alt="" />
+            </td>
+            <td class="col-3">Introduction to Algorithms, third edition
+            </td>
+            <td class="col-2">Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein</td>
+            <td class="col-2">July 31, 2009</td>
+            <td class="col-2">
+              <button class="btn btn-primary">Add to Cart</button>
+              <button class="btn btn-primary my-4">Add to Wishlist</button>
+              <button class="btn btn-primary">Buy now</button>
+            </td>
+          </tr>
+
+          <tr class="table-black">
+            <td>
+              <img class="col-3 w-100 img-thumbnail rounded-3" src="image/java.jpg" alt="" />
+            </td>
+            <td class="col-3">Head First Java: A Brain-Friendly Guide
+            </td>
+            <td class="col-2">Kathy Sierra and Bert Bates</td>
+            <td class="col-2">October 4, 1998</td>
+            <td class="col-2">
+                <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-primary my-4">Add to Wishlist</button>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </td>
+          </tr>
+
+          <tr class="table-success">
+            <td>
+              <img class="col-3 w-100 img-thumbnail rounded-3" src="image/shield.jpg" alt="" />
+            </td>
+            <td class="col-3">Night Fury Agent of S.H.I.E.L.D
+            </td>
+            <td class="col-2">Robert C. Martin</td>
+            <td class="col-2">September 01, 1968</td>
+            <td class="col-2">
+                <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-primary my-4">Add to Wishlist</button>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </td>
+          </tr>
+
+          <tr class="table-warning"">
+            <td>
+              <img class="col-3 w-100 img-thumbnail rounded-3" src="image/Sin-Eater-by-Megan-Campisi.jpg" alt="" />
+            </td>
+            <td class="col-3">Sin Eater
+            </td>
+            <td class="col-2">Megan Campisi</td>
+            <td class="col-2">October 4, 1998</td>
+            <td class="col-2">
+                <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-primary my-4">Add to Wishlist</button>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </td>
+          </tr>
+
+          <tr class="table-success">
+            <td>
+              <img class="col-3 w-100 img-thumbnail rounded-3" src="image/spider.jpg" alt="" />
+            </td>
+            <td class="col-3">Amazing Fantasy-Spiderman
+            </td>
+            <td class="col-2">Stan Lee, Steve Ditko</td>
+            <td class="col-2">August 01, 1962</td>
+            <td class="col-2">
+                <button class="btn btn-primary">Add to Cart</button>
+                <button class="btn btn-primary my-4">Add to Wishlist</button>
+                <button class="btn btn-primary">Buy now</button>
+              </div>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
